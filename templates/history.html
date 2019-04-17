@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<ul>
+  {% for entry in history %}
+  <li>
+    <strong>Source:</strong> {{ entry.src_amount }} {{ entry.src_currency }}
+    &nbsp;
+    <strong>Result:</strong> {{ entry.tgt_amount }} {{ entry.tgt_currency }}
+  </li>
+  {% endfor %}
+</ul>
+{% endblock %}
