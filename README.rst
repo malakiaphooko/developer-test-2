@@ -8,9 +8,17 @@ So we're going to use a web framework called Flask:
 
 http://flask.pocoo.org/docs/1.0/
 
+To spin up the little test app you'll just run it as if it was a script:
+
+.. code:: shell
+
+  $ python app.py
+
 And we're going to use an ORM called:
 
 http://docs.peewee-orm.com/en/latest/
+
+ORMs, simply put, are convenient data models that sit over the SQL data.
 
 We'll use an SQLite database, and I've given you some very basic boilerplate to
 work with.
